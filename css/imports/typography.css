@@ -44,8 +44,5 @@ h2.spring-news, div.banner-medium > p {
 div.banner-medium > p {
     color: white;
     text-transform: capitalize;
-}
-
-div.banner-medium p.two-lines {
     text-align: center;
 }
