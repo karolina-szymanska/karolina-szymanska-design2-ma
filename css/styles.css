@@ -1,0 +1,19 @@
+@import "./imports/variables.css";
+@import "./imports/typography.css";
+@import "./imports/layout.css";
+
+.banner-medium, .banner-right {
+    height: 400px;
+    width: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.round-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
