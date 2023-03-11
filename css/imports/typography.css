@@ -31,3 +31,21 @@ p.pink {
     font-size: 70px;
     font-weight: 700;
 }
+
+p.category {
+    font-size: 14px;
+}
+
+h2.spring-news, div.banner-medium > p {
+    font-family: "Quentin";
+    font-size: 72px;
+}
+
+div.banner-medium > p {
+    color: white;
+    text-transform: capitalize;
+}
+
+div.banner-medium p.two-lines {
+    text-align: center;
+}
