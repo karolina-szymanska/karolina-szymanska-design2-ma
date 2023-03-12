@@ -94,6 +94,14 @@
     color: transparent;
   }
 
+  div.contact-us {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
   /* MAIN */
 
   .transparent-button {
