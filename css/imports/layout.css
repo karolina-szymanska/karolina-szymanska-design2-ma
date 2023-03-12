@@ -148,6 +148,7 @@ div.item {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-weight: 500;
 }
 
 .round-image {
@@ -156,6 +157,7 @@ div.item {
     border-radius: 50%;
     background-size: cover;
     background-position: center;
+    margin-bottom: 1rem;
 }
 
 section.grid-section {
@@ -243,6 +245,7 @@ div.button-black {
     color: black;
     border: solid black 1px;
     text-transform: capitalize;
+    font-weight: 500;
 }
 
 /* FOOTER */
