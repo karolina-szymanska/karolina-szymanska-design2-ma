@@ -8,7 +8,9 @@
   body {
     display: flex;
     flex-direction: column;
-    background-color: var(--beige-light);
+    /* background-color: var(--beige-light); */
+    background-image: url("../../images/background.jpg");
+    background-repeat: repeat;
   }
 
   /* HEADER */
@@ -88,6 +90,7 @@
     text-transform: capitalize;
     text-decoration: none;
     color: black;
+    font-weight: 500;
   }
 
   li::marker {
