@@ -198,3 +198,66 @@ div.large-icon i {
 div.large-icon p {
     text-transform: capitalize;
 }
+
+section.half-banner-extra-container {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+div.half-banner {
+    width: 90%;
+    display: flex;
+}
+
+div.text-left, div.banner-right {
+    width: 50%;
+}
+
+div.text-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.banner-right {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+div.button-black {
+    color: black;
+    border: solid black 1px;
+    text-transform: capitalize;
+}
+
+/* FOOTER */
+
+div.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--brown-logo);
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    color: var(--beige-light);
+}
+
+div.footer-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+div.footer-icons i {
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+div.footer-text {
+    display: flex;
+    justify-content: space-evenly;
+}
