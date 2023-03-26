@@ -220,14 +220,14 @@ div.large-icon {
 }
 
 div.large-icon i {
-    font-size: 40px;
+    font-size: 45px;
     margin-bottom: 1rem;
     color: var(--brown-logo);
 }
 
 div.large-icon img {
-  height: 40px;
-  width: 40px;
+  height: 45px;
+  width: 45px;
   margin-bottom: 1rem;
 }
 
