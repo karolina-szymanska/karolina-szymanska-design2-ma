@@ -68,6 +68,18 @@ p.all-plants {
     margin-bottom: 1.5rem;
 }
 
+p.inspired {
+    margin-top: 1rem;
+}
+
+/* Products */
+
+p.product-price {
+    font-weight: 700;
+}
+
+/* Footer */
+
 div.footer-text p {
     font-size: 0.9rem;
     margin-bottom: 1rem;

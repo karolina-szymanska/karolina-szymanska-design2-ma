@@ -103,6 +103,7 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
+    z-index: 20 !important;
   }
 
   /* MAIN */
@@ -113,13 +114,18 @@
     padding: 1rem;
   }
 
-  section.main-banner-section {
+  section.main-banner-section, section.main-product-section {
     display: flex;
     justify-content: center;
   }
+
+  section.main-product-section {
+    height: 700px;
+    align-items: center;
+  }
   
 
-div.main-banner {
+div.main-banner, div.main-product {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -129,6 +135,16 @@ div.main-banner {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+div.main-product {
+  justify-content: center;
+}
+
+div.glass-effect {
+  border-radius: 7px;
+  backdrop-filter: blur(5px);
+  padding: 5rem 10rem;
 }
 
 div.circles-extra-container {
@@ -160,7 +176,7 @@ div.item {
     margin-bottom: 1rem;
 }
 
-section.grid-section {
+section.grid-section, section.products-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -204,8 +220,19 @@ div.large-icon {
 }
 
 div.large-icon i {
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 1rem;
+    color: var(--brown-logo);
+}
+
+div.large-icon img {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 1rem;
+}
+
+div.large-icon img.pin {
+  width: auto;
 }
 
 div.large-icon p {
@@ -248,14 +275,54 @@ div.button-black {
     font-weight: 500;
 }
 
+/* PRODUCTS */
+
+div.main-product {
+  position: absolute;
+  filter: brightness(0.6);
+}
+
+div.products {
+  width: 90%;
+  display: grid;
+  /* grid-gap: 20px; */
+  /* column-gap: 15px; */
+  row-gap: 50px;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fill, 350px);
+}
+
+div.product-card {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  background-color: white;
+}
+
+img.product-image {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  object-position: center;
+}
+
+div.product-text {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 /* FOOTER */
 
 div.footer {
     display: flex;
     flex-direction: column;
-    background-color: var(--brown-logo);
+    background-color: var(--green);
     padding-top: 3rem;
     padding-bottom: 5rem;
+    margin-top: 3rem;
     color: var(--beige-light);
 }
 
